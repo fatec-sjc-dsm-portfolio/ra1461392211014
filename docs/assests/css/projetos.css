@@ -36,7 +36,7 @@ main {
 
 .professional-projects-title {
     color: #4e0586;
-    padding-bottom: 3%;
+    padding-bottom: 2.5%;
     padding-top: 0.5%;
     font-family: sans-serif;
 
@@ -59,3 +59,6 @@ main {
     padding-bottom: 1%;
 }
 
+.relevant-text  {
+    color: #4e0586
+}
