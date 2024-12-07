@@ -1,0 +1,61 @@
+body{
+    background-color: #faf9f9;
+}
+
+main {
+    display: flex;
+}
+
+.projects {
+    width: 95.8%;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* background-color: green; */
+}
+
+#logo-linkedin-github {
+    display: flex;
+    flex-direction: column;
+    width: 4.2%;
+    align-items: center;
+    gap: 2.2rem;
+    padding-top: 5.3rem;
+    padding-right: 1.8%;
+}
+
+#linkedin, #github {
+    width: 105%
+}
+
+.academic-projects-title {
+    color: #4e0586;
+    padding-bottom: 3%;
+    padding-top: 4%;
+    font-family: sans-serif;
+}
+
+.professional-projects-title {
+    color: #4e0586;
+    padding-bottom: 3%;
+    padding-top: 0.5%;
+    font-family: sans-serif;
+
+}
+
+.project-left, .project-right {
+    display: flex;
+    gap: 3%;
+    align-items: center;
+    padding-bottom: 3%;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.project {
+    width: 50%;
+}
+
+#project-title {
+    padding-bottom: 1%;
+}
+
