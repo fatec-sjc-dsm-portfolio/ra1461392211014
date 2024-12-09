@@ -158,7 +158,7 @@ ul {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 455px) {
     .text-section {
         width: 88%;
         padding-top: 12%;

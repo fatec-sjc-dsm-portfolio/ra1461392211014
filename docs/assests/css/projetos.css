@@ -63,7 +63,12 @@ main {
 }
 
 .project {
-    width: 50%;
+    width: 25%;
+}
+
+.project2 {
+    height: 7%;
+    width: 15%;
 }
 
 #project-title {
@@ -100,6 +105,12 @@ main {
     font-family: sans-serif;
 }
 
+@media screen and (max-width: 1470px) {
+    .code-link-right {
+        margin-left: 75%;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .code-link-right {
         margin-left: 75%;
@@ -127,7 +138,7 @@ main {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 455px) {
     .project-left {
         flex-direction: column;
         padding-left: 3%
@@ -157,6 +168,10 @@ main {
         padding: 2% 3%
     }
 
+    .code-link-right {
+        margin-left: 55%;
+    }
+
     .personal-projects-title {
         padding-top: 7%
     }
@@ -164,5 +179,17 @@ main {
     #logo-linkedin-github {
         width: 10%;
         padding-right: 3%
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .code-link-right {
+        margin-left: 50%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .code-link-right {
+        margin-left: 45%;
     }
 }

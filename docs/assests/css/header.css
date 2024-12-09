@@ -44,7 +44,7 @@ header {
     background-color: #f0f0f0b6;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 455px) {
     #logo {
         margin-left: 8%
     }
