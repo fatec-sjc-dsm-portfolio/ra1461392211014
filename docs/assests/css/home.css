@@ -90,3 +90,40 @@ main {
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
     border-radius: 25px;
 }
+
+@media screen and (max-width: 1024px) {
+    #logo-linkedin-github {
+        padding-right: 1%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    main {
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+    
+    .home-left {
+        width: 100%;
+        padding-left: 5%;
+    }
+
+    .home-right {
+        width: 100%;
+        padding-bottom: 10%;
+        padding-top: 15%;
+    }
+
+    #home-left-text-h1 {
+        font-size: 2rem;
+    }
+
+    #home-left-text-h2{
+        font-size: 1rem;
+    }
+
+    #home-left-text-h3 {
+        font-size: 1.5rem;
+    }
+
+}

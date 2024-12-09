@@ -43,3 +43,29 @@ header {
 .menu-link:hover {
     background-color: #f0f0f0b6;
 }
+
+@media screen and (max-width: 425px) {
+    #logo {
+        margin-left: 8%
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #logo {
+        height: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #logo {
+        height: 3rem;
+    }
+    header {
+        gap: 5%
+    }
+    .menu-link {
+        min-width: 0.3rem;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}
